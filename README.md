@@ -1,6 +1,6 @@
 # My_Website by Vu Nguyen
 
-### A simple React Frontend and Python Django Backend Project communicating via Django Rest Framework API and React Hooks. The project is deployed using Apache2 and WSGI on Ubuntu EC2 AWS service.
+### A simple React Frontend and Python Django Backend Project communicating via Django Rest Framework API and React Hooks. The project is deployed using Apache2 and WSGI on Ubuntu EC2 AWS service and register domain name on Route 53 AWS. 
 ### The website fetched data from Django backend and list out a summary details of my projects
 
 #### Step 1: On Ubuntu, setup Django settings.py to allow AWS host and React client. 
