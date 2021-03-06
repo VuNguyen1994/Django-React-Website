@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #000000;
+  min-height: 39vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(8px + 2vmin);
+  color: white;
+}
+
+.App-content {
+  background-color: #ffffff;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  padding: 10px 400px;
+  justify-content: center;
+  font-size: calc(5px + 1vmin);
+  color: rgb(0, 0, 0);
+}
+
+.Project-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.Profile-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.App-link {
+  color: #556df8;
+  font-size: calc(5px + 1vmin);
+}
+
+.profile {
+  background-color:#000000;
+  height: 20%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  padding: 10px 400px;
+  justify-content: center;
+  font-size: calc(5px + 1vmin);
+  color: #ffffff; 
+}
+
+/* Split the screen in half */
+.split {
+  height: 55%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
