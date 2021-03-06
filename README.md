@@ -6,6 +6,7 @@
 
 ### The website fetched data from Django backend and list out a summary details of my projects
 
+
 #### Step 1: On Ubuntu, setup Django settings.py to allow AWS host and React client. 
 ####
 #### Step 2: Setup Apache2 config for the website with media, python path and wsgi.py path. Allow permissions for group www-data so Apache can access SQLite DB. 
@@ -20,6 +21,7 @@
 #### Step 6: Use Route 53 AWS service to register a domain and connect the IP with the domain. Make sure to update the settings.py in Django Backend to allow the hosts and cors headers origin as well as the front end is fetching data correctly with new domain.
 ####
 #### Step 7: Register for HTTPS service using SSL certificate with Certbot Let's Encrypt. Modify the Apache2 config file to avoid duplicate headers error for Cerbot and restart Apache2 service.
+
 
 ##### Documentations on Django:
 ##### https://www.django-rest-framework.org/api-guide/viewsets/#modelviewset
